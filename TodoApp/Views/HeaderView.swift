@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct HeaderView: View {
+    let title: String
+    let background: Color
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 0)
-                .foregroundColor(Color.black)
+                .foregroundColor(background)
             VStack{
-                Text("Welcome to Presidio DO")
+                Text(title)
                     .font(.system(size: 30))
                     .foregroundColor(Color.white)
                     .bold()
@@ -30,6 +32,6 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderView(title: "title", background: .blue)
     }
 }
