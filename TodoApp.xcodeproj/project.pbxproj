@@ -33,6 +33,7 @@
 		C07616102A63193000F5C441 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076160F2A63193000F5C441 /* HeaderView.swift */; };
 		C0E9C87C2A63DF18002949DB /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E9C87B2A63DF18002949DB /* TLButton.swift */; };
 		C0E9C87E2A6401A3002949DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E9C87D2A6401A3002949DB /* Extensions.swift */; };
+		C0ED06152A65103D0093DEB7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0ED06142A65103D0093DEB7 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		C076160F2A63193000F5C441 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C0E9C87B2A63DF18002949DB /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		C0E9C87D2A6401A3002949DB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C0ED06142A65103D0093DEB7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				C07615D62A62FBDB00F5C441 /* TodoAppApp.swift */,
 				C07615EB2A63011900F5C441 /* GoogleService-Info.plist */,
 				C0E9C87D2A6401A3002949DB /* Extensions.swift */,
+				C0ED06142A65103D0093DEB7 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				C07615DE2A62FBDD00F5C441 /* Preview Assets.xcassets in Resources */,
 				C07615DB2A62FBDD00F5C441 /* Assets.xcassets in Resources */,
+				C0ED06152A65103D0093DEB7 /* Launch Screen.storyboard in Resources */,
 				C07615EC2A63011A00F5C441 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
