@@ -15,6 +15,10 @@ struct RegisterView: View {
             //header
             HeaderView(title: "Register", background: .black)
             Form{
+                if !viewModel.errorMessage.isEmpty{
+                    Text(viewModel.errorMessage)
+                        .foregroundColor(Color.red)
+                }er
                 TextField("Full Name",text: $viewModel.name)
                     .autocorrectionDisabled()
                 TextField("Email Address",text: $viewModel.email)
